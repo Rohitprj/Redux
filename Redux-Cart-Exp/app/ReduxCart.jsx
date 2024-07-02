@@ -6,6 +6,7 @@ import { decrement, increment } from "../services/Store/counterSlice";
 export default function ReduxCart() {
   const Counter = useSelector((selector) => selector.counter);
   const dispatch = useDispatch();
+  console.log(Counter)
   return (
     <View>
       <Text>ReduxCart</Text>
