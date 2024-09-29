@@ -4,6 +4,7 @@ import { reducerApi } from "./reducer/reducerApi";
 
 const rootReducer = combineReducers({
   counter: counterReducer,
-  apiCall: reducerApi,
+  api: reducerApi
+ 
 });
 export default rootReducer;

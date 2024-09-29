@@ -1,1 +1,1 @@
-export const selectorApi = (state) => state.apiCall.data;
+export const selectorApi = (state) => state.api.data;

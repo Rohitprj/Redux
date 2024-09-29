@@ -6,8 +6,8 @@ import {
 
 const initialState = {
   loading: false,
-  data: null,
-  error: null,
+  data: [],
+  error: "",
 };
 
 export const reducerApi = (state = initialState, action) => {
