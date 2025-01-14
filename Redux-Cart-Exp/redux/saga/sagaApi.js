@@ -8,7 +8,7 @@ import { fetchFailure, fetchRequest, fetchSuccess } from "../action/actionApi";
 async function fetchData() {
   try {
     const fetchingData = await fetch(
-      "https://fake-api1.vercel.app/api/products/"
+      "http://localhost:3001/"
     );
     const response = await fetchingData.json();
     return response;

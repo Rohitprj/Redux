@@ -15,7 +15,7 @@ export default function index() {
   useEffect(() => {
       setData(apiData);
   }, []);
-  // console.log(data);
+  console.log(data);
   // const product = data && data.products && data.products.length > 0 ? data.products[0] : null;
   return (
     <View style={{ gap: 10, paddingHorizontal: 10 }}>
